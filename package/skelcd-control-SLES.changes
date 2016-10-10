@@ -1,4 +1,12 @@
 -------------------------------------------------------------------
+Mon Oct 10 10:52:41 UTC 2016 - kanderssen@suse.com
+
+- Remove netprobe client from autoinstallation as it should being
+  duplicating work at the beginning of AutoYast's second stage.
+  (bsc#991694)
+- 12.2.3
+
+-------------------------------------------------------------------
 Fri Aug 26 12:14:17 UTC 2016 - lslezak@suse.cz
 
 - Move the YaST self update step earlier in the workflow to avoid
